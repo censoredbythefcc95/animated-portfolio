@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero";
 import Parallel from "./components/parallel/Parallel";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
+
 const App = () => {
   return <div>
      <section id="Homepage">
