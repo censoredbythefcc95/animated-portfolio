@@ -5,9 +5,10 @@ import Parallel from "./components/parallel/Parallel";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
-
+import Cursor from "./components/cursor/Cursor";
 const App = () => {
   return <div>
+    <Cursor />
      <section id="Homepage">
       <Navbar/>
       <Hero />
