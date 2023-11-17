@@ -26,7 +26,7 @@ const Parallel = ({ type }) => {
              }}
             >
             <motion.h1 style={{ y: yText }}>
-                {type==="services" ? "What We Do?" : "What we Did?" } </motion.h1>
+                {type==="services" ? "Services We Provide" : "Our Past Work" } </motion.h1>
             <motion.div className="mountains"></motion.div>
             <motion.div className="planets" style= {{
                 y: yBg,
